@@ -17,3 +17,16 @@ LCD display output for system status.
 I2C communication for sensor/device interfacing.
 External interrupt support for real-time responsiveness.
 Example node programs to demonstrate integration.
+
+Project Structure
+------------------------------------------
+adc.c / adc.h                # ADC driver implementation
+can.c / can.h                # CAN communication functions
+lcd.c / lcd.h                # LCD display control
+i2c.c / i2c.h                # I2C driver
+interrupt.c / interrupt.h    # Interrupt handling
+FUEL_NODE.c                  # Node handling fuel data
+MAIN_NODE.c                  # Main controller node
+INDICATOR_NODE.c             # Indicator control node
+defines.h                    # Project-wide definitions
+delay.c / delay.h            # Delay utilities
